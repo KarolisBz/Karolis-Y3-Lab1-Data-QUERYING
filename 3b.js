@@ -7,7 +7,7 @@ let addTask = (task) => {
     stringArray.push(task);
 
     // printing indication
-    console.log("Added new task!")
+    console.log("Added " + task + " to task array!")
 
     // returning number of elements in array
     return (stringArray.length);

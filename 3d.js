@@ -24,7 +24,7 @@ let deleteTask = (task) => {
     // finds and removes task from array "stringArray"
     let index = stringArray.indexOf(task)
     stringArray.splice(index, 1);
-
+    
     // printing message to console
     console.log("Task " + task + " was deleted!")
 
@@ -37,4 +37,5 @@ listAllTasks()
 console.log(addTask("homework")); // adding task
 listAllTasks()
 console.log(deleteTask("homework")); // removing task
+listAllTasks()
 
